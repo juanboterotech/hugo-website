@@ -1,0 +1,8 @@
+baseURL = "http://hugo-website-duke.s3-website.us-east-2.amazonaws.com/"
+languageCode = "en-us"
+title = "Hugo AWS CD"
+theme = "ananke"
+[[Deployment.targets]]
+# Arbiratry name for this target
+name = "awsbucket"
+URL= "s3://hugo-website-duke/?region=us-east-2"
